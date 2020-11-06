@@ -43,7 +43,7 @@ header img {
 .logo {
   font-size: 35px;
   color: $gold-color;
-  font-style: italic;
+  font-family: 'Dancing Script', cursive;
 }
 
 .welcome {
@@ -96,4 +96,72 @@ header img {
 nav .container {
   padding-top: 25px;
   max-width: 80%;
+}
+
+.services {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.services .col-12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.services .col-12 h2 {
+  width: 100%;
+  text-align: center;
+  margin-block-end: 0;
+  font-size: 32px;
+}
+
+.services .col-12 p {
+  color: $font-color;
+  font-style: italic;
+  margin-block-start: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.services .col-lg-4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+  transition: .2s;
+  padding-top: 10px;
+
+  &:hover {
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+  }
+}
+
+.services .services-logo {
+  border: 3px solid $gold-color;
+  border-radius: 50%;
+}
+
+.services .services-logo i {
+  font-size: 35px;
+  color: $gold-color;
+  padding: 15px;
+}
+
+.services .col-lg-4 h5 {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin-block-end: 5px;
+  margin-block-start: 20px
+}
+
+.services .col-lg-4 p {
+  color: $font-color;
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+  margin-block-start: 5px;
 }

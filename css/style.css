@@ -1,11 +1,7 @@
-$gold-color: #FED136;
-$darker-background: #F7F7F7;
-$light-background: #FFFFFF;
-$font-color: #777777;
-
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 .wrapper {
   margin: 0 auto;
   max-width: 1400px;
@@ -14,20 +10,20 @@ body {
 header {
   height: 60vh;
   position: relative;
-  color: $light-background;
+  color: #FFFFFF;
+}
 
-  &::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    color: $light-background;
-    background-color: black;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    opacity: .4;
-  }
+header::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: .4;
 }
 
 header img {
@@ -42,7 +38,7 @@ header img {
 
 .logo {
   font-size: 35px;
-  color: $gold-color;
+  color: #FED136;
   font-style: italic;
 }
 
@@ -54,33 +50,37 @@ header img {
   text-align: center;
   width: 100%;
 }
+
 .welcome h1 {
   font-size: 65px;
   width: 100%;
 }
+
 .welcome h3 {
   font-size: 40px;
   font-style: italic;
   font-weight: normal;
 }
+
 .welcome button {
   border: none;
   border-radius: 5px;
   font-size: 16px;
   padding: 17px 40px;
-  color: $light-background;
-  background-color: $gold-color;
+  color: #FFFFFF;
+  background-color: #FED136;
   font-weight: bold;
   cursor: pointer;
   transition: .3s;
+}
 
-  &:hover {
-    background-color: #dcb014;
-  }
+.welcome button:hover {
+  background-color: #dcb014;
 }
 
 .nav-list {
   list-style: none;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -90,10 +90,11 @@ header img {
 
 .nav-list li a {
   text-decoration: none;
-  color: $light-background;
+  color: #FFFFFF;
 }
 
 nav .container {
   padding-top: 25px;
   max-width: 80%;
 }
+/*# sourceMappingURL=style.css.map */

@@ -5,6 +5,7 @@ $font-color: #777777;
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #000;
 }
 .wrapper {
   margin: 0 auto;
@@ -99,25 +100,25 @@ nav .container {
 }
 
 .services {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  padding: 100px 0 100px;
+  background-color: $light-background;
 }
 
-.services .col-12 {
+.section-title {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.services .col-12 h2 {
+.section-title h2 {
   width: 100%;
   text-align: center;
   margin-block-end: 0;
   font-size: 32px;
 }
 
-.services .col-12 p {
+.section-title p {
   color: $font-color;
   font-style: italic;
   margin-block-start: 5px;
@@ -164,4 +165,51 @@ nav .container {
   font-size: 14px;
   text-align: center;
   margin-block-start: 5px;
+}
+
+.portfolio {
+  padding: 100px 0;
+  background-color: $darker-background;
+}
+
+.portfolio .row .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.portfolio .row .row .col-lg-4 {
+  background-color: $light-background;
+  max-width: 300px;
+  padding: 0 0 10px 0;
+  margin-bottom: 50px;
+  text-align: center;
+  transition: .3s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.portfolio .row .row .col-lg-4 .img{
+  height: 300px;
+  width: 300px;
+}
+
+.portfolio .row .row .col-lg-4 img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.portfolio .row .row .col-lg-4 h5{
+  font-size: 18px;
+  margin-block-end: 0;
+}
+
+.portfolio .row .row .col-lg-4 p {
+  margin-block-start: 0px;
+  color: $font-color;
+  font-style: italic;
+  font-size: 14px;
 }

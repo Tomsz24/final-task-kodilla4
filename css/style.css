@@ -78,6 +78,7 @@ header img {
 
 .welcome button:hover {
   background-color: #dcb014;
+  color: #eee;
 }
 
 .nav-list {
@@ -317,6 +318,31 @@ footer .col-lg-7 {
   }
   .welcome h1 {
     font-size: 45px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-list {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .nav-list li {
+    margin-bottom: 10px;
+  }
+  .welcome {
+    top: 55%;
+    transform: translateY(0);
+    transform: translateX(-50%);
+  }
+  .welcome h3 {
+    font-size: 20px;
+  }
+  .welcome h1 {
+    font-size: 27px;
+  }
+  .welcome button {
+    font-size: 14px;
+    padding: 10px 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

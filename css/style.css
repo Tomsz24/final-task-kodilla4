@@ -41,6 +41,7 @@ header img {
   font-size: 35px;
   color: #FED136;
   font-family: 'Dancing Script', cursive;
+  cursor: pointer;
 }
 
 .welcome {
@@ -87,6 +88,11 @@ header img {
 
 .nav-list li {
   padding-right: 25px;
+  transition: .3s;
+}
+
+.nav-list li:hover {
+  transform: scale(1.2);
 }
 
 .nav-list li a {
@@ -183,51 +189,100 @@ nav .container {
   background-color: #F7F7F7;
 }
 
+.portfolio .row {
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
 .portfolio .row .row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
-.portfolio .row .row .col-lg-4 {
+.portfolio .row .row .col-lg-3 {
   background-color: #FFFFFF;
-  max-width: 300px;
+  min-height: 400px;
+  min-width: 320px;
   padding: 0 0 10px 0;
   margin-bottom: 50px;
+  margin-right: 35px;
   text-align: center;
   transition: .3s;
 }
 
-.portfolio .row .row .col-lg-4:hover {
+.portfolio .row .row .col-lg-3:hover {
   transform: scale(1.1);
 }
 
-.portfolio .row .row .col-lg-4 .img {
-  height: 300px;
-  width: 300px;
+.portfolio .row .row .col-lg-3:nth-child(1) {
+  margin-left: 35px;
 }
 
-.portfolio .row .row .col-lg-4 img {
+.portfolio .row .row .col-lg-3 .img img {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  overflow: hidden;
 }
 
-.portfolio .row .row .col-lg-4 h5 {
+.portfolio .row .row .col-lg-3 h5 {
   font-size: 18px;
   -webkit-margin-after: 0;
           margin-block-end: 0;
 }
 
-.portfolio .row .row .col-lg-4 p {
+.portfolio .row .row .col-lg-3 p {
   -webkit-margin-before: 0px;
           margin-block-start: 0px;
   color: #777777;
   font-style: italic;
   font-size: 14px;
+}
+
+footer {
+  background-color: #FFFFFF;
+}
+
+footer ul {
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+footer ul li {
+  margin-right: 10px;
+  padding: 15px 18px;
+  background-color: #000;
+  border-radius: 50%;
+  transition: .3s;
+  cursor: pointer;
+}
+
+footer ul li:hover {
+  transform: scale(1.2);
+}
+
+footer ul li a {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+footer .col-lg-5 {
+  margin: 40px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+footer .col-lg-7 {
+  margin: 40px 0;
 }
 /*# sourceMappingURL=style.css.map */

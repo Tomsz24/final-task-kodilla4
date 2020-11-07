@@ -1,3 +1,7 @@
+html {
+  margin: 0;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #000;
@@ -36,6 +40,10 @@ header img {
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+nav.container {
+  padding-top: 35px;
 }
 
 .logo {
@@ -355,9 +363,12 @@ footer .col-lg-7 {
   }
 }
 
-@media (max-width: 364px) {
+@media (max-width: 376px) {
   header {
     min-height: 400px;
+  }
+  nav.container {
+    padding-top: 15px;
   }
   .nav-list li {
     margin-bottom: 8px;

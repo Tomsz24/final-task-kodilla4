@@ -303,6 +303,8 @@ footer .col-lg-7 {
   footer ul {
     -ms-flex-pack: center;
         justify-content: center;
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
   }
   footer .col-lg-7 {
     margin: 20px 0;

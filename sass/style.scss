@@ -284,3 +284,11 @@ footer .col-lg-7{
     margin-bottom: 0;
   }
 }
+@media(max-width: 768px) {
+  .welcome h3{
+    font-size: 30px;
+  }
+  .welcome h1{
+    font-size: 45px;
+  }
+}

@@ -6,6 +6,7 @@ $font-color: #777777;
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #000;
+  margin: 0;
 }
 .wrapper {
   margin: 0 auto;
@@ -184,13 +185,13 @@ nav .container {
   justify-content: center;
 }
 
-.portfolio .row .row {
+.portfolio .row{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.portfolio .row .row .col-lg-3 {
+.portfolio .row .col-lg-3 {
   background-color: $light-background;
   min-height: 400px;
   min-width: 320px;
@@ -209,7 +210,7 @@ nav .container {
   }
 }
 
-.portfolio .row .row .col-lg-3 img{
+.portfolio .row .col-lg-3 img{
   object-fit: cover;
   width: 100%;
   height: 350px;
@@ -219,13 +220,13 @@ nav .container {
   padding: 25px 0 25px;
 }
 
-.portfolio .row .row .col-lg-3 h5{
+.portfolio .row .col-lg-3 h5{
   font-size: 18px;
   margin-block-end: 0;
   margin-block-start:0;
 }
 
-.portfolio .row .row .col-lg-3 p {
+.portfolio .row .col-lg-3 p {
   margin-block-start: 0px;
   margin-block-end: 0;
   color: $font-color;
@@ -272,10 +273,7 @@ footer .col-lg-7{
 }
 
 @media(max-width: 990px) {
-  .wrapper {
-    margin: 0;
-  }
-  .portfolio .row .row .col-lg-3 {
+  .portfolio .row .col-lg-3 {
     margin-left: 35px;
   }
   header nav .col-lg-6 {
@@ -343,7 +341,7 @@ footer .col-lg-7{
   .section-title p {
     text-align: center;
   }
-  .portfolio .row .row .col-lg-3 {
+  .portfolio .row .col-lg-3 {
     min-height: 300px;
     min-width: 200px;
   }

@@ -265,6 +265,9 @@ footer .col-lg-7{
 }
 
 @media(max-width: 990px) {
+  .wrapper {
+    margin: 0;
+  }
   .portfolio .row .row .col-lg-3 {
     margin-left: 35px;
   }
@@ -301,7 +304,6 @@ footer .col-lg-7{
   .nav-list li {
     margin-bottom: 10px;
   }
-
   .welcome {
     top: 55%;
     transform: translateY(0);
@@ -316,5 +318,29 @@ footer .col-lg-7{
   .welcome button {
     font-size: 14px;
     padding: 10px 20px;
+  }
+}
+@media(max-width: 364px) {
+  header {
+    min-height: 400px;
+  }
+  .nav-list li {
+    margin-bottom: 8px;
+  }
+  .welcome h1{
+    font-size: 23px;
+  }
+  .section-title h2{
+    font-size: 25px;
+  }
+  .section-title p {
+    text-align: center;
+  }
+  .portfolio .row .row .col-lg-3 {
+    min-height: 300px;
+    min-width: 200px;
+  }
+  footer span {
+    font-size: 12px;
   }
 }

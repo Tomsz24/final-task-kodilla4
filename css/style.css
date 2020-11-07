@@ -227,21 +227,29 @@ nav .container {
   margin-left: 35px;
 }
 
-.portfolio .row .row .col-lg-3 .img img {
+.portfolio .row .row .col-lg-3 img {
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 350px;
+}
+
+.img-description {
+  padding: 25px 0 25px;
 }
 
 .portfolio .row .row .col-lg-3 h5 {
   font-size: 18px;
   -webkit-margin-after: 0;
           margin-block-end: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
 }
 
 .portfolio .row .row .col-lg-3 p {
   -webkit-margin-before: 0px;
           margin-block-start: 0px;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
   color: #777777;
   font-style: italic;
   font-size: 14px;

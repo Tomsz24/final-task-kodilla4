@@ -224,10 +224,6 @@ nav .container {
   transform: scale(1.1);
 }
 
-.portfolio .row .col-lg-3:nth-child(1) {
-  margin-left: 35px;
-}
-
 .portfolio .row .col-lg-3 img {
   object-fit: cover;
   width: 100%;

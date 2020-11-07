@@ -285,4 +285,29 @@ footer .col-lg-5 {
 footer .col-lg-7 {
   margin: 40px 0;
 }
+
+@media (max-width: 990px) {
+  .portfolio .row .row .col-lg-3 {
+    margin-left: 35px;
+  }
+  header nav .col-lg-6 {
+    text-align: center;
+  }
+  .nav-list {
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  footer ul {
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  footer .col-lg-7 {
+    margin: 20px 0;
+  }
+  footer .col-lg-5 {
+    margin-bottom: 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
